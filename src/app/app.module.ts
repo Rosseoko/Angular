@@ -3,7 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import {MdToolbarModule, MdButtonModule, MdCheckboxModule} from '@angular/material'; //import the modules corresponding to each of the Material Components
+import {MdToolbarModule, MdButtonModule, MdCheckboxModule, MdListModule} from '@angular/material'; //import the modules corresponding to each of the Material Components
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import 'hammerjs';
@@ -23,6 +23,7 @@ import { MenuComponent } from './menu/menu.component';
     MdToolbarModule, 
     MdButtonModule, 
     MdCheckboxModule,
+    MdListModule,
     FlexLayoutModule 
 
   ],
